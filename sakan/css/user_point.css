@@ -67,13 +67,7 @@ nav a{
 }
 .tennai{
   position: relative;
-  opacity: 0;
-  transform: translateY(-20px);
   transition: all 1s;
-}
-.tennai.scrollin{
-  opacity: 1;
-  transform: translateY(0);
 }
 
 .tennai img{
@@ -86,30 +80,24 @@ nav a{
 }
 .coffee{
   position: absolute;
-  top:100px;
+  top:50px;
   left:50px;
 }
 .aroma{
   position: absolute;
-  top:150px;
+  top:100px;
   left:350px;
 }
 .norble{
   position: absolute;
-  top:200px;
+  top:150px;
   left:600px;
 }
 .point{
   text-align: center;
-  opacity: 0;
-  transform: translateY(-20px);
   transition: all 1s;
 }
 
-.point.scrollin{
-  opacity: 1;
-  transform: translateY(0);
-}
 
 footer{
   clear: both;

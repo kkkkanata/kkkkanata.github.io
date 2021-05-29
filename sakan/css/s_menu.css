@@ -66,19 +66,6 @@ nav a{
   color: red;
 }
 
-table{
-  margin-left: auto;
-  margin-right: auto;
-}
-
-table,td,th{
-  border: solid 1px;
-}
-
-td img{
-
-}
-
 .sub{
   width:1000px;
   margin-top: 50px;
@@ -106,7 +93,40 @@ td img{
   width: 220px;
   height: 220px;
 }
+table{
+  flex: 0 0 500px;
+}
+.pafe{
+  flex:0 0 700px;
+}
+table,td,th{
+  border: solid 1px;
+}
 
+.menu{
+  width: 1000px;
+  display: flex;
+}
+
+.imageList__thumbs {
+  flex: 1;
+  display: flex;
+  flex-wrap:wrap;
+}
+.imageList__thumbnail p{
+  text-align: center;
+  font-size: 50%;
+}
+.imageList__thumbnail {
+  margin-left: 10px;
+  flex: 0 1 calc(50% - 10px);
+}
+.imageList__thumbnail:nth-child(n + 3) {
+  margin-top: 10px;
+}
+.late,.tea{
+  margin-right: 100px;
+}
 footer{
   clear: both;
   width:1000px;

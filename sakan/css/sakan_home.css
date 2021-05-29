@@ -84,12 +84,6 @@ nav a{
   font-size: 50px;
   font-weight: bold;
   color: white;
-  /* -webkit-transition: all 0.5s; */
-	/* -moz-transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	-o-transition: all 0.5s; */
-	/* transition: all 2s;
-   opacity: 0; */
 }
 .coffee{
   position: absolute;
